@@ -34,6 +34,7 @@ $wgResourceModules['ext.ClientsideDrafts'] = array(
   'messages' => array(
     'clientsidedrafts-autosaved',
     'clientsidedrafts-trouble',
-    'clientsidedrafts-required'
+    'clientsidedrafts-required',
+    'clientsidedrafts-saveinterval'
   )
 );

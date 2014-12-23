@@ -82,7 +82,7 @@
             saveKey(key, state);
         };
 
-        $('<p style="margin: 10px auto">Черновик сохраняется каждые ' + AUTOSAVE_INTERVAL / 1000 + ' секунд.</p>').insertBefore('#editpage-copywarn p');
+        $('<p style="margin: 10px auto">').text(t('clientsidedrafts-saveinterval', AUTOSAVE_INTERVAL/1000)).insertBefore('#editpage-copywarn p');
         setInterval(saveDraft, AUTOSAVE_INTERVAL);
         loadDraft();
 
