@@ -37,4 +37,3 @@ $wgResourceModules['ext.ClientsideDrafts'] = array(
     'clientsidedrafts-required'
   )
 );
-
